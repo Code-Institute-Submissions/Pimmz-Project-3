@@ -32,13 +32,13 @@ else:
 
     simulantChoice = input("> ")
 
-    if (userChoice == "scarpa"):
+    if (simulantChoice == "scarpa"):
         print("You fire up the boosters and leg it")
         print("Unfortunately starbug is slower than an arthritic hamster")
         print("The simulants laugh and blast you to pieces")
         print("Youre Dead!")
 
-    elif (userChoice == "fight")
+    elif (simulantChoice == "fight")
     print("You turn starbug around and fire the guns")
     print("Direct hit, to there engines")
     print("The simulant ship is dead in the water, great shooting")
@@ -49,3 +49,25 @@ else:
 
     else:
         print("Invalid choice. Please enter scarpa or fight.")
+
+# User input for the analyse choice
+
+    analyseChoice = input("> ")
+
+    if (analyseChoice == "analyse")
+    print("You sit down with rimmer and analyse the situation")
+    print("After days of analysing and organ music playing in the background")
+    print("You decide its to much and throw yourself in space without a suit")
+    print("You're Dead!")
+
+    elif (analyseChoice == "board")
+    print("You board the simulant ship and start looking for goods to swipe")
+    print("The cat finds a box with rejuvenating shower written on it")
+    print("You all agree he can keep it, just to keep him quiet")
+    print("Lister says he'll build it as he took a class once at art school")
+    print("Do you let lister build it or kryten?")
+
+    else:
+       print("Invalid choice. Please enter analyse or board.")
+
+# User input for the shower choice
