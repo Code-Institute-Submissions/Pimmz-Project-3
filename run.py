@@ -125,10 +125,10 @@ elif (userChoice == "bridge"):
                         print("Invalid choice. Please enter yes or no")
 
                 else:
-                    print("Invalid choice. Please enter yes or no")
+                    print("Invalid choice. Please enter forwards or backwards")
 
             else:
-                print("Invalid choice. Please enter forwards or backwards")
+                print("Invalid choice. Please enter Kryten or Lister")
 
         else:
             print("Invalid choice. Please enter analyse or board")
