@@ -1,7 +1,7 @@
 # Start of the game
 
 print("Are you ready to play Back To Red Dwarf!")
-print("Youve been woken up by alaram bells and sirens going off.")
+print("Youve been woken up by alargot o bridgem bells and sirens going off.")
 print("You're in your quarters of a spaceship called Starbug.")
 print("Do you want to go to the bridge to see what the smeg is going on?")
 print("or")
@@ -25,9 +25,6 @@ elif (userChoice == "bridge"):
     print("We have two choices either fight or scrapa")
     print("What would you like to do?")
 
-else:
-    print("Invalid choice. Please enter bridge or sit back.")
-
 # User input for the simulant choice
 
     simulantChoice = input("> ")
@@ -47,27 +44,29 @@ else:
         print("Or")
         print("Go and board their ship and see if anything is worth swipping?")
 
-    else:
-        print("Invalid choice. Please enter scarpa or fight.")
 
 # User input for the analyse choice
 
-    analyseChoice = input("> ")
+        analyseChoice = input("> ")
 
-    if (analyseChoice == "analyse"):
-        print("You sit down with rimmer and analyse the situation")
-        print("After days of analysing and organ music playing in the background")
-        print("You decide its to much and throw yourself in space without a suit")
-        print("You're Dead!")
+        if (analyseChoice == "analyse"):
+            print("You sit down with rimmer and analyse the situation")
+            print("After days of analysing and organ music playing in the background")
+            print("You decide its to much and throw yourself in space without a suit")
+            print("You're Dead!")
 
-    elif (analyseChoice == "board"):
-        print("You board the simulant ship and start looking for goods to swipe")
-        print("The cat finds a box with rejuvenating shower written on it")
-        print("You all agree he can keep it, just to keep him quiet")
-        print("Lister says he'll build it as he took a class once at art school")
-        print("Do you let lister build it or kryten?")
+        elif (analyseChoice == "board"):
+            print("You board the simulant ship and start looking for goods to swipe")
+            print("The cat finds a box with rejuvenating shower written on it")
+            print("You all agree he can keep it, just to keep him quiet")
+            print("Lister says he'll build it as he took a class once at art school")
+            print("Do you let lister build it or kryten?")
+
+        else:
+            print("Invalid choice. Please enter analyse or board.")
 
     else:
-       print("Invalid choice. Please enter analyse or board.")
-
+        print("Invalid choice. Please enter scarpa or fight.")
+else:
+    print("Invalid choice. Please enter bridge or sit back.")
 # User input for the shower choice
