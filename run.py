@@ -3,7 +3,7 @@
 print("Are you ready to play Back To Red Dwarf!")
 print("Youve been woken up by alaram bells and sirens going off.")
 print("You're in your quarters of a spaceship called Starbug.")
-print("Do you want to go to the bridge to see what the smeg is going on?)
+print("Do you want to go to the bridge to see what the smeg is going on?")
 print("or")
 print("Sit back relax and watch some zero g football with a beer?")
 
