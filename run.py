@@ -22,7 +22,7 @@ if (userChoice == "sit back"):
 elif (userChoice == "bridge"):
     print("You run to the bridge and ask what the smeg is going on?")
     print("Kryten replies, were being attacked by rouge simulants")
-    print("We have two choices either fight or scrapa")
+    print("We have two choices either fight or scarpa")
     print("What would you like to do?")
 
 # User input for the simulant choice
@@ -44,6 +44,8 @@ elif (userChoice == "bridge"):
         print("Or")
         print("Go and board their ship and see if anything is worth swipping?")
 
+    else:
+        print("Invalid choice. Please enter scarpa or fight.")
 
 # User input for the analyse choice
 
@@ -64,9 +66,7 @@ elif (userChoice == "bridge"):
 
         else:
             print("Invalid choice. Please enter analyse or board.")
-
-    else:
-        print("Invalid choice. Please enter scarpa or fight.")
+  
 else:
     print("Invalid choice. Please enter bridge or sit back.")
 # User input for the shower choice
