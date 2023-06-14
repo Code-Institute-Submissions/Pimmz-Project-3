@@ -49,47 +49,65 @@ elif (userChoice == "bridge"):
 
 # User input for the analyse choice
 
-    analyseChoice = input("> ")
+        analyseChoice = input("> ")
 
-    if (analyseChoice == "analyse"):
-        print("You sit down with rimmer and analyse the situation")
-        print("After days of analysing and organ music playing in the background")
-        print("You decide its to much and throw yourself in space without a suit") 
-        print("You're Dead!")
+        if (analyseChoice == "analyse"):
+            print("You sit down with rimmer and analyse the situation")
+            print("After days of analysing and organ music playing in the background")
+            print("You decide its to much and throw yourself in space without a suit") 
+            print("You're Dead!")
 
-    elif (analyseChoice == "board"):
-        print("You board the simulant ship and start looking for goods to swipe")
-        print("The cat finds a box with rejuvenating shower written on it")
-        print("You all agree he can keep it, just to keep him quiet")
-        print("Lister says he'll build it, as he took a class once at art school")
-        print("Do you let lister build it or kryten?")
+        elif (analyseChoice == "board"):
+            print("You board the simulant ship and start looking for goods to swipe")
+            print("The cat finds a box with rejuvenating shower written on it")
+            print("You all agree he can keep it, just to keep him quiet")
+            print("Lister says he'll build it, as he took a class once at art school")
+            print("Do you let lister build it or kryten?")
 
-    else:
-       print("Invalid choice. Please enter analyse or board.")
+        else:
+            print("Invalid choice. Please enter analyse or board.")
 
 # User input for the shower choice
     
-    showerChoice = input("> ")
+            showerChoice = input("> ")
     
-    if (showerChoice == "kryten"):
-        print("kryten unpacks the shower and starts building it")
-        print("After about two hours hes finished and starts to test the device")
-        print("A huge explosion happens killing everyone on board")
-        print("It seems Lister had swapped out krytens head to spare head two")
-        print("You're Dead!")
+            if (showerChoice == "kryten"):
+                print("kryten unpacks the shower and starts building it")
+                print("After about two hours hes finished and starts to test the device")
+                print("A huge explosion happens killing everyone on board")
+                print("It seems Lister had swapped out krytens head to spare head two")
+                print("You're Dead!")
 
-    elif (showerChoice == "Lister"):
-        print("Lister starts building the shower")
-        print("He builds it in under and hour, which is very suspicious")
-        print("It seems hes used abit of the luck virus")
-        print("When he tests it, the whole crew are teleported to what looks like earth")
-        print("You soon realise you are on a backwards planet. You know this, as the cat has just been to the toilet, yikes")
-        print("The remote for the teleporter is dead and needs batteries. Do you go forwards or backwards")
+            elif (showerChoice == "Lister"):
+                print("Lister starts building the shower")
+                print("He builds it in under and hour, which is very suspicious")
+                print("It seems hes used abit of the luck virus")
+                print("When he tests it, the whole crew are teleported to what looks like earth")
+                print("You soon realise you are on a backwards planet. You know this, as the cat has just been to the toilet, yikes")
+                print("The remote for the teleporter is dead and needs batteries. Do you go forwards or backwards")
 
-    else:
-        print("Invalid choice. Please enter forwards or backwards.")
-                 
-                            
+            else:
+                print("Invalid choice. Please enter forwards or backwards.")
+
+# User input for the lemons choice
+
+                lemonsChoice = input("> ")
+
+                if (lemonsChoice == "forwards"):
+                    print("Oh smeg, its a backwards planet.")
+                    print("You walk backwards straight off a cliff")
+                    print("You're Dead!")
+
+                elif (lemonsChoice == "backwards"):
+                    print("Your walk forwards straight to the nearest village")
+                    print("Its a Gelf village. They unfortunately dont have a nine volt battery for the remote")
+                    print("But look they have lemons and copper. We could make a battery says kryten")
+                    print("The Gelfs are happy to trade, but want rimmer in exchange")
+                    print("Do you exchange rimmer for the lemons and copper?")
+
+                else:
+                    print("Invalid choice. Please enter yes or no.")
+
 else:
     print("Invalid choice. Please enter bridge or sit back.")
 
