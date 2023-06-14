@@ -49,7 +49,7 @@ elif (userChoice == "bridge"):
 
 # User input for the analyse choice
 
-        analyseChoice = input("> ")
+    analyseChoice = input("> ")
 
         if (analyseChoice == "analyse"):
             print("You sit down with rimmer and analyse the situation")
