@@ -11,7 +11,6 @@ print("Sit back relax and watch some zero g football with a beer?")
 
 userChoice = input("> ")
 user_input_lower = userChoice.lower
-print(user_input_lower)
 
 if (userChoice == "sit back"):
     print("You sit back put your feet up and turn the game on")
@@ -31,7 +30,6 @@ elif (userChoice == "bridge"):
 
     simulantChoice = input("> ")
     user_input_lower = simulantChoice.lower
-    print(user_input_lower)
 
     if (simulantChoice == "scarper"):
         print("You fire up the boosters and leg it")
@@ -52,7 +50,6 @@ elif (userChoice == "bridge"):
 
         analyseChoice = input("> ")
         user_input_lower = analyseChoice.lower
-        print(user_input_lower)
 
         if (analyseChoice == "analyse"):
             print("You sit down with rimmer and analyse the situation")
@@ -71,7 +68,6 @@ elif (userChoice == "bridge"):
 
             showerChoice = input("> ")
             user_input_lower = showerChoice.lower
-            print(user_input_lower)
 
             if (showerChoice == "Kryten"):
                 print("kryten unpacks the shower and starts building it")
@@ -96,7 +92,6 @@ elif (userChoice == "bridge"):
 
                 lemonsChoice = input("> ")
                 user_input_lower = lemonsChoice.lower
-                print(user_input_lower)
 
                 if (lemonsChoice == "forwards"):
                     print("Oh smeg, it's a backwards planet.")
@@ -116,7 +111,6 @@ elif (userChoice == "bridge"):
 
                     tradeChoice = input("> ")
                     user_input_lower = tradeChoice.lower
-                    print(user_input_lower)
 
                     if (tradeChoice == "yes"):
                         print("Double smeg, it's a backwards planet.")
