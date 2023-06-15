@@ -1,40 +1,26 @@
-# PROJECT 3
+# Back to Red Dwarf
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Welcome to Back to Red Dwarf. The texted based adventure game. I created the game because I have very fond memories of playing similiar games in my youth. I used to get lost in the worlds that had been created. So it was great fun to able to make my own. I decided on Back to Red Dwarf due to being a big fan of the show. Plus I enjoy humour in my adventure games. So it seemed only fitting that I marry the Red Dwarf story to the texted based adventure game. Back to Red Dwarf has been designed so anyone can enjoy this simple but enjoyable game, so they to can enjoy moments as I did as a child.
+ 
+![screenshot](documentation/ami.png)
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
 https://ui.dev/amiresponsive?url=https://red-dwarf.herokuapp.com
 
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
 
-![screenshot](documentation/mockup.png)
+## Design Process (UX)
+When I started the design of Back to Red Dwarf I wanted to ensure the site was Useful, Useable and Valuable so that it makes the user experience immersive and enjoyable. To do this I looked at the five key fundamentals;
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
+Strategy - So the user can enjoy this simple, enjoyable, texted based game while immersing themselves in a fictional scenario.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+## Scope - Based on the information from the strategy, the features included emotive images, which offered key information about the quote the famous person said. A timer so the user can see what their best was, so they can try to beat it. I also included a section so they can see how many guesses they made so they can not only complete the game as fast as possible but also do it in the least amount of moves. A how-to-play feature was also included so the user can see how to play the game if they are not familiar with this particular game. The option to reset the game was also included so they can put the game back to the start at any point. Update: I have decided to include a leaderboard in the design so that it creates more of a challenge for the user.
 
-## UX
+Structure - This was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. The key part being that they were in control of there journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required if they did put any other word in the input field
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Skeleton - As before this was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. This dictated that it would be one page, laid out simply. So that it can be used quickly and efficiently while delivering the most amount of fun and gaining a small amount of knowledge as well.
 
-In this section, you will briefly explain your design processes.
+Surface - I wanted the look of Famous Quote Matcher to be informative, clear, and concise, with consistent typography and corresponding colours to help them stand out, to easily navigate with emotive pictures that helped to bring an element of fun which I believe we all need on a daily basis.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Then I sat down and roughly sketched out onto paper what the screens would look like on a mobile, tablet and desktop, This then gave me the basis to start creating Famous Quote Matcher in Codeanywhere.
 
 ## Features
 
