@@ -18,9 +18,9 @@ if (userChoice == "sit back"):
     print("You sit back put your feet up and turn the game on")
     print("You grab the beer and just as you're about to open it,")
     print("It turns input a polymorph and sucks all your emotion out")
+    print("")
     print("The cries of Dwayne Dibbly! are heard being shouted")
     print("Followed by the sound of a blaster")
-    print("")
     print("You're dead!")
     quit()
 
