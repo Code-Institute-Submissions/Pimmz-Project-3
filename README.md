@@ -12,113 +12,63 @@ When I started the design of Back to Red Dwarf I wanted to ensure the site was U
 
 Strategy - So the user can enjoy this simple, enjoyable, texted based game while immersing themselves in a fictional scenario.
 
-## Scope - Based on the information from the strategy, the features included emotive images, which offered key information about the quote the famous person said. A timer so the user can see what their best was, so they can try to beat it. I also included a section so they can see how many guesses they made so they can not only complete the game as fast as possible but also do it in the least amount of moves. A how-to-play feature was also included so the user can see how to play the game if they are not familiar with this particular game. The option to reset the game was also included so they can put the game back to the start at any point. Update: I have decided to include a leaderboard in the design so that it creates more of a challenge for the user.
+## Scope - Based on the information from the strategy, .
 
-Structure - This was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. The key part being that they were in control of there journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required if they did put any other word in the input field
+Structure - This was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. The key part being that they were in control of their journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required if they did put any other word in the input field
 
-Skeleton - As before this was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. This dictated that it would be one page, laid out simply. So that it can be used quickly and efficiently while delivering the most amount of fun and gaining a small amount of knowledge as well.
+Skeleton - As before this was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. The user has been given a number of different scenarios so they can have a fun and challenging expeerience. Due to it being a back end application it dictated that it would be one page, laid out simply. So that it can be used quickly and efficiently while delivering the most amount of fun.
 
-Surface - I wanted the look of Famous Quote Matcher to be informative, clear, and concise, with consistent typography and corresponding colours to help them stand out, to easily navigate with emotive pictures that helped to bring an element of fun which I believe we all need on a daily basis.
+Surface - I wanted the look of Back to Red Dwarf to be informative, clear, and concise, with consistency through out. However due to it being a back end application and the time scales involved I was limited to the texted supplied by codeanywhere and heroku
 
-Then I sat down and roughly sketched out onto paper what the screens would look like on a mobile, tablet and desktop, This then gave me the basis to start creating Famous Quote Matcher in Codeanywhere.
+Then I sat down and roughly sketched out onto paper what the journey would look like. This then gave me the basis to start creating Back to Red Dwarf in Codeanywhere.
+
+![screenshot](documentation/p3-sketch.jpg) 
 
 ## Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Back to Red Dwarf has been designed do the user feels in control of their journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required if they did put any other word in the input field
 
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Existing Features
 
-- **Title for feature #1**
+- **Choice of direction#1**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Having the choice of direction is key the texted based computer game so the user feels in control of their journey by giving them several options to choose from
 
 ![screenshot](documentation/feature01.png)
 
-- **Title for feature #2**
+- **Lowercase converter #2**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game play and ruin the usr experience
 
 ![screenshot](documentation/feature02.png)
 
-- **Title for feature #3**
+- **Word correction #3**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - I have also added code to help show the user the correct text required if they did put any other word in the input field as could very easily happen.
+
 
 ![screenshot](documentation/feature03.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+- Adding four times the current amount of rooms  #1
+    - The game would definately benefit from having a longer more immersive experience. So to add four times the amount of rooms would make the game so much more challenging
+- Pictures added #2
+    - Id like to add pictures to the game. Something like your dead and a picture depicking the particular death you suffered or pictures to celebrate a decesion well made or even finishing the game.
 
 ## Tools & Technologies Used
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
-- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [JavaScript](https://www.javascript.com) used for user interaction on the site.
 - [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
-- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
+- [codeanywhere](https://app.codeanywhere.com/) used as a cloud-based IDE for development.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+
 
 ## Data Model
 
@@ -126,46 +76,44 @@ Feel free to delete any unused items below as necessary.
 
 To follow best practice, a flowchart was created for the app's logic,
 and mapped out before coding began using a free version of
-[Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning) and/or [Draw.io](https://www.draw.io).
+[Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning).
 
 Below is the flowchart of the main process of this Python program. It shows the entire cycle of the program.
 
-![screenshot](documentation/flowchart.png)
+![screenshot](documentation/p3-flowchart.pdf)
 
 ### Classes & Functions
 
 The program uses classes as a blueprint for the project's objects (OOP). This allows for the object to be reusable.
 
 ```python
-class Person:
-    """ Insert docstring comments here """
-    def __init__(self, name, age, health, inventory):
-        self.name = name
-        self.age = age
-        self.health = health
-        self.inventory = inventory
+userChoice = input("> ")
+if (userChoice == "text"):
+    print("")
+elif (userChoice == "text"):
+    print("")
+else:
+    print("")
 ```
 
 The primary functions used on this application are:
 
-- `get_sales_data()`
-    - Get sales figures input from the user.
-- `validate_data()`
-    - Converts all string values into integers.
-- `update_worksheet()`
-    - Update the relevant worksheet with the data provided.
-- `calculate_surplus_data()`
-    - Compare sales with stock and calculate the surplus for each item type.
-- `get_last_5_entries_sales()`
-    - Collects columns of data from sales worksheet.
-- `calculate_stock_data()`
-    -  Calculate the average stock for each item type, adding 10%.
-- `main()`
-    - Run all program functions.
+- `userChoice = input("> ")`
+    - To allow the user to input commands.
+- `if`
+    - if statement is used for conditional execution or branching..
+- `userChoice == "text"`
+    - It checks the variable is equal to the string literal.
+- `elif`
+    - Used with if incase the if condition is not met. else if.
+- `else`
+    - Also used with if and elif when their condition are not met
+- `print`
+    -  To display text in the console
 
 ### Imports
 
-I've used the following Python packages and/or external imported packages.
+# I've used the following Python packages and/or external imported packages.
 
 - `gspread`: used with the Google Sheets API
 - `google.oauth2.service_account`: used for the Google Sheets API credentials
@@ -264,11 +212,8 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+There are no differences between the local version Ive developed, and the live deployment site on Heroku.
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on Heroku.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Credits
 
