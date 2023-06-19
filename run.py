@@ -184,3 +184,24 @@ def start_game_text():
 
 if __name__ == "__main__":
     start_game_text()
+
+
+inventory = []
+
+
+def bridgeChoice():
+    global inventory
+    print("Would you like to pick up listers guitar as reward?")
+    pickup = input(['yes', 'no'])
+    if pickup == "yes":
+        addToInventory("guitar")
+    else:
+        print("You have left the guitar behind")
+    print(inventory)
+
+
+def addToInventory(item):
+    inventory.append(item)
+
+
+bridgeChoice()
