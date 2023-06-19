@@ -21,10 +21,11 @@ def sit_back_or_bridge():
         print("")
         print("You sit back put your feet up and turn the game on")
         print("You grab the beer and just as you're about to open it,")
-        print("It turns input a polymorph and sucks all your emotion out")
+        print("It turns into a Polymorph and sucks all your emotion out")
         print("")
         print("The cries of Dwayne Dibbly! are heard being shouted")
         print("Followed by the sound of a blaster")
+        print("")
         print("You're dead!")
         quit()
 
@@ -58,7 +59,7 @@ def fight_or_scarper():
         print("Great shooting, There are no signs of life on the ship")
         print("")
         print("Do you analyse what just happened? as rimmer has suggested.")
-        print("Or go and board their ship and see if anything is worth swiping?")
+        print("Or go and board their ship to see if anything is worth swiping")
 
 
 # User input for the analyse choice
@@ -67,9 +68,10 @@ def analyse_or_board():
     user_input = get_user_input(['analyse', 'board'])
     if (user_input == "analyse"):
         print("")
-        print("You sit down with rimmer and analyse the situation")
-        print("After days of analysing and organ music playing in the background")
-        print("You decide it's to much and throw yourself in space withour a suit")
+        print("You sit down with rimmer and analyse the situation, after")
+        print("Days of analysing and organ music playing in the background")
+        print("You decide you cant take it any more and throw yourself")
+        print("In space without a suit")
         print("")
         print("You're Dead!")
         quit()
@@ -79,7 +81,7 @@ def analyse_or_board():
         print("You board the simulant ship and start looking for goods")
         print("The cat finds a box with rejuvenating shower written on it")
         print("You all agree he can keep it, just to keep him quiet")
-        print("Lister says he'll build it, he took a class once at art college")
+        print("Lister says hell build it, he took a class once at art college")
         print("")
         print("Do you let lister build it or kryten?")
 
@@ -93,7 +95,7 @@ def kryten_or_lister():
         print("Kryten unpacks the shower and starts building it")
         print("After two hours hes finished and tests the device")
         print("A huge explosion happens killing everyone on board")
-        print("It seems Lister had swapped out krytens, Head to spare head two")
+        print("It seems Lister had swapped out krytens head to spare head two")
         print("The smeeeeg heeeeead")
         print("")
         print("You're Dead!")
@@ -105,9 +107,9 @@ def kryten_or_lister():
         print("He builds it in an hour, which is very suspicious, ")
         print("It seems hes used abit of the luck virus")
         print("")
-        print("When he tests it, the whole crew are teleported to what looks like")
-        print("Earth, You soon realise you are on a backwards planet, You know ")
-        print("This as the cat has just been to the toilet, yikes!")
+        print("When he tests it, the whole crew are teleported to what looks")
+        print("Like Earth You soon realise you are on a backwards planet, You")
+        print("Know this as the cat has just been to the toilet, yikes!")
         print("")
         print("The remote is dead and needs batteries")
         print("Do you go forwards or backwards")
@@ -175,6 +177,6 @@ def start_game_text():
     print("Or sit back relax and watch some zero g football with a beer?")
     sit_back_or_bridge()
 
-    
+
 if __name__ == "__main__":
-    start_game_text
+    start_game_text()

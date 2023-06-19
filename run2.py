@@ -1,3 +1,17 @@
+# Start of the game
+def start_game_text():
+    print("Are you ready to play Back To Red Dwarf?")
+    print("")
+    print("You've been woken up by alarm bells and sirens going off.")
+    print("You're in your quarters of a spaceship called Starbug.")
+    print("")
+    print("Do you want to go to the bridge to see what the smeg is going on?")
+    print("Or sit back relax and watch some zero g football with a beer?")
+    sit_or_bridge()
+
+
+if __name__ == "__main__":
+    start_game_text()
 
 
 def get_user_input(valid_options):
@@ -11,27 +25,6 @@ def get_user_input(valid_options):
         else:
             print('Invalid input, please enter again')
     return user_input_lower
-
-
-def fight_or_scarper():
-    user_input = get_user_input(['fight', 'scarper'])
-    if (user_input == "scarper"):
-        print("")
-        print("You fire up the boosters and leg it ")
-        print("Unfortunately Starbug is slower than an arthritic hamster")
-        print("The simulants laugh and blast you to pieces")
-        print("")
-        print("Youre Dead!")
-        quit()
-
-    elif (user_input == "fight"):
-        print("")
-        print("You turn Starbug around and fire the guns, Direct hit to")
-        print("Their engines, the simulant ship is dead in the water")
-        print("Great shooting, There are no signs of life on the ship")
-        print("")
-        print("Do you analyse what just happened? as rimmer has suggested.")
-        print("Or go and board their ship and see if anything is worth swiping?")
 
 
 def sit_or_bridge():
@@ -54,20 +47,28 @@ def sit_or_bridge():
         print("We have two choices either fight or scarper")
         print("What would you like to do?")
         print("")
-        fight_or_scarper()
+
+    user_input = get_user_input(['fight', 'scarper'])
+    if (user_input == "scarper"):
+        print("")
+        print("You fire up the boosters and leg it ")
+        print("Unfortunately Starbug is slower than an arthritic hamster")
+        print("The simulants laugh and blast you to pieces")
+        print("")
+        print("Youre Dead!")
+        quit()
+
+    elif (user_input == "fight"):
+        print("")
+        print("You turn Starbug around and fire the guns, Direct hit to")
+        print("Their engines, the simulant ship is dead in the water")
+        print("Great shooting, There are no signs of life on the ship")
+        print("")
+        print("Do you analyse what just happened? as rimmer has suggested.")
+        print("Or go and board their ship and see if anything is worth sping?")
 
 
-# Start of the game
-def start_game_text():
-    print("Are you ready to play Back To Red Dwarf?")
-    print("")
-    print("You've been woken up by alarm bells and sirens going off.")
-    print("You're in your quarters of a spaceship called Starbug.")
-    print("")
-    print("Do you want to go to the bridge to see what the smeg is going on?")
-    print("Or sit back relax and watch some zero g football with a beer?")
-    sit_or_bridge()
 
 
-if __name__=="__main__":
-      start_game_text()
+
+
