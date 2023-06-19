@@ -39,6 +39,7 @@ def sit_back_or_bridge():
 
 
 # User input for the simulant choice
+
 def fight_or_scarper():
     user_input = get_user_input(['fight', 'scarper'])
     if (user_input == "scarper"):
@@ -174,6 +175,6 @@ def start_game_text():
     print("Or sit back relax and watch some zero g football with a beer?")
     sit_back_or_bridge()
 
+    
 if __name__ == "__main__":
     start_game_text
-
