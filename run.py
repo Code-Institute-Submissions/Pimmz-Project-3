@@ -35,8 +35,9 @@ def sit_back_or_bridge():
         print("Kryten replies, were being attacked by rouge simulants")
         print("")
         print("We have two choices either fight or scarper")
-        print("What would you like to do?")
+        print("What would you like to do ?")
         print("")
+        fight_or_scarper()
 
 
 # User input for the simulant choice
@@ -56,10 +57,11 @@ def fight_or_scarper():
         print("")
         print("You turn Starbug around and fire the guns, Direct hit to")
         print("Their engines, the simulant ship is dead in the water")
-        print("Great shooting, There are no signs of life on the ship")
+        print("Great shooting! There are no signs of life on the ship")
         print("")
-        print("Do you analyse what just happened? as rimmer has suggested.")
-        print("Or go and board their ship to see if anything is worth swiping")
+        print("Do you analyse what just happened? as Rimmer has suggested or")
+        print("Go and board their ship to see if anything is worth swiping ?")
+        analyse_or_board()
 
 
 # User input for the analyse choice
@@ -68,7 +70,7 @@ def analyse_or_board():
     user_input = get_user_input(['analyse', 'board'])
     if (user_input == "analyse"):
         print("")
-        print("You sit down with rimmer and analyse the situation, after")
+        print("You sit down with Rimmer and analyse the situation, after")
         print("Days of analysing and organ music playing in the background")
         print("You decide you cant take it any more and throw yourself")
         print("In space without a suit")
@@ -81,9 +83,10 @@ def analyse_or_board():
         print("You board the simulant ship and start looking for goods")
         print("The cat finds a box with rejuvenating shower written on it")
         print("You all agree he can keep it, just to keep him quiet")
-        print("Lister says hell build it, he took a class once at art college")
+        print("Lister says he'll build it he took a class once at art college")
         print("")
         print("Do you let lister build it or kryten?")
+        kryten_or_lister()
 
 
 # User input for the shower choice
@@ -103,9 +106,8 @@ def kryten_or_lister():
 
     elif (user_input == "lister"):
         print("")
-        print("Lister starts building the shower")
-        print("He builds it in an hour, which is very suspicious, ")
-        print("It seems hes used abit of the luck virus")
+        print("Lister starts building the shower, he builds it in an hour")
+        print("Which is very strange,It seems he used abit of the luck virus")
         print("")
         print("When he tests it, the whole crew are teleported to what looks")
         print("Like Earth You soon realise you are on a backwards planet, You")
@@ -113,6 +115,7 @@ def kryten_or_lister():
         print("")
         print("The remote is dead and needs batteries")
         print("Do you go forwards or backwards")
+        forwards_or_backwards()
 
 
 # User input for the lemons choice
@@ -131,12 +134,13 @@ def forwards_or_backwards():
         print("")
         print("You walk forwards straight to the nearest village")
         print("Its a Gelf village!. They unfortunately don't have a nine volt")
-        print("Battery for the remote but, look, they do have lemons and ")
+        print("Battery for the remote but look, they do have lemons and ")
         print("Copper. Kryten said We could make a battery")
         print("")
         print("The Gelfs are happy to trade, but they want Rimmer in exchange")
         print("")
         print("Do you exchange Rimmer for the lemons and copper?")
+        yes_or_no()
 
 
 # User input for the lemons choice
@@ -159,7 +163,7 @@ def yes_or_no():
         print("You've got rid of Rimmer, What a great day")
         print("")
         print("Kryten makes the battery and hits the return key, everyone is")
-        print("Teleport but wait, this isn't Starbug, its Red Dwarf")
+        print("Teleported, but wait, this isn't Starbug, its Red Dwarf")
         print("")
         print("Congratulations!")
         print("You've made it Back to Red Dwarf")
