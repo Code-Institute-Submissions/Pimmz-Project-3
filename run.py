@@ -72,7 +72,7 @@ def analyse_or_board():
         print("")
         print("You sit down with Rimmer and analyse the situation, after")
         print("Days of analysing and organ music playing in the background")
-        print("You decide you cant take it any more and throw yourself")
+        print("You decide you can't take it any more and throw yourself")
         print("In space without a suit")
         print("")
         print("You're Dead!")
@@ -85,7 +85,7 @@ def analyse_or_board():
         print("You all agree he can keep it, just to keep him quiet")
         print("Lister says he'll build it he took a class once at art college")
         print("")
-        print("Do you let lister build it or kryten?")
+        print("Do you let lister build it or Kryten?")
         kryten_or_lister()
 
 
@@ -96,9 +96,9 @@ def kryten_or_lister():
     if (user_input == "kryten"):
         print("")
         print("Kryten unpacks the shower and starts building it")
-        print("After two hours hes finished and tests the device")
+        print("After two hours he's finished and tests the device")
         print("A huge explosion happens killing everyone on board")
-        print("It seems Lister had swapped out krytens head to spare head two")
+        print("It seems Lister had swapped out Krytens head to spare head two")
         print("The smeeeeg heeeeead")
         print("")
         print("You're Dead!")
@@ -107,7 +107,7 @@ def kryten_or_lister():
     elif (user_input == "lister"):
         print("")
         print("Lister starts building the shower, he builds it in an hour")
-        print("Which is very strange,It seems he used abit of the luck virus")
+        print("Which is very strange,It seems he used a bit of the luck virus")
         print("")
         print("When he tests it, the whole crew are teleported to what looks")
         print("Like Earth You soon realise you are on a backwards planet, You")
@@ -135,7 +135,7 @@ def forwards_or_backwards():
         print("You walk forwards straight to the nearest village")
         print("Its a Gelf village!. They unfortunately don't have a nine volt")
         print("Battery for the remote but look, they do have lemons and ")
-        print("Copper. Kryten said We could make a battery")
+        print("Copper. Kryten said we could make a battery")
         print("")
         print("The Gelfs are happy to trade, but they want Rimmer in exchange")
         print("")
@@ -186,12 +186,12 @@ if __name__ == "__main__":
     start_game_text()
 
 
-inventory = []
+inventory = ['Youve picked up listers']
 
 
 def bridgeChoice():
     global inventory
-    print("Would you like to pick up listers guitar as reward?")
+    print("Would you like to pick up listers guitar as a reward?")
     pickup = input(['yes', 'no'])
     if pickup == "yes":
         addToInventory("guitar")
