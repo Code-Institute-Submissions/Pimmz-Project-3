@@ -31,24 +31,29 @@ Back to Red Dwarf has been designed do the user feels in control of their journe
 
 ### Existing Features
 
-- **Choice of direction#1**
+- **Choice of direction**
 
     - Having the choice of direction is key the texted based computer game so the user feels in control of their journey by giving them several options to choose from
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/direction.png)
 
-- **Lowercase converter #2**
+- **One loop for all input to check for vaildity & Lowercase converter** 
 
     - A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game play and ruin the usr experience
 
-![screenshot](documentation/feature02.png)
+![screenshot](documentation/function.png)
 
-- **Word correction #3**
+- **Clear word choice #3**
 
     - I have also added code to help show the user the correct text required if they did put any other word in the input field as could very easily happen.
 
+![screenshot](documentation/word.png)
 
-![screenshot](documentation/feature03.png)
+- **Reward logged into inventory** 
+
+    - I have included a reward of listers guitar. so the user has the satifaction of getting something after completing the game.
+
+![screenshot](documentation/reward.png)
 
 
 
@@ -68,6 +73,7 @@ Back to Red Dwarf has been designed do the user feels in control of their journe
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [codeanywhere](https://app.codeanywhere.com/) used as a cloud-based IDE for development.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
+- [Lucidchart](https://www.lucidchart.com/ used for the flowchart)
 
 
 ## Data Model
@@ -87,22 +93,37 @@ Below is the flowchart of the main process of this Python program. It shows the 
 The program uses classes as a blueprint for the project's objects (OOP). This allows for the object to be reusable.
 
 ```python
-userChoice = input("> ")
-if (userChoice == "text"):
-    print("")
-elif (userChoice == "text"):
-    print("")
-else:
-    print("")
+def get_user_input(valid_options):
+    input_is_valid = False
+    print(f"{valid_options} ? ")
+    while input_is_valid is False:
+        user_choice = input("> ")
+        user_input_lower = user_choice.lower()
+        if user_input_lower in valid_options:
+            input_is_valid = True
+        else:
+            print('Invalid input, please enter again')
+    return user_input_lower
+
+def sit_back_or_bridge():
+    user_input = get_user_input(['sit back', 'bridge'])
+    if (user_input == "sit back"):
+        print("")
 ```
 
 The primary functions used on this application are:
 
-- `userChoice = input("> ")`
+- `user_input = get_user_input(['sit back', 'bridge'])`
     - To allow the user to input commands.
+- `input_is_valid = False`
+    - Keeps track of the input validity
+- `valid_options`
+    - Used to wait for the user to put in a valid option
+- `user_input_lower`
+    - To ensure case insensitive
 - `if`
-    - if statement is used for conditional execution or branching..
-- `userChoice == "text"`
+    - If statement is used for conditional execution or branching..
+- `userChoice == ""`
     - It checks the variable is equal to the string literal.
 - `elif`
     - Used with if incase the if condition is not met. else if.
@@ -111,16 +132,6 @@ The primary functions used on this application are:
 - `print`
     -  To display text in the console
 
-### Imports
-
-# I've used the following Python packages and/or external imported packages.
-
-- `gspread`: used with the Google Sheets API
-- `google.oauth2.service_account`: used for the Google Sheets API credentials
-- `time`: used for adding time delays
-- `os`: used for adding a `clear()` function
-- `colorama`: used for including color in the terminal
-- `random`: used to get a random choice from a list
 
 ## Testing
 
@@ -217,80 +228,33 @@ There are no differences between the local version Ive developed, and the live d
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- [python](https://www.w3schools.com/python/default.asp) used to assist with python throughout the site.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- Tutor support at code institute
+- Antonio Rodriguez Mentor at code institute
+- Love Sandwiches project at code institute
 
 ### Content
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
+| [W3Schools](https://www.w3schools.com/python/default.asp) | entire site | functions |
+| [W3Schools](https://www.w3schools.com/python/python_conditions.asp) | entire site | if, elif and else  |
+| [W3Schools](https://www.w3schools.com/python/python_while_loops.asp) | intial function | while loop |
+
+
 | [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
 | [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
 | [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
 | [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
-### Media
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
-
 ### Acknowledgements
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Antonio Rodriguez] for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would like to thank my partner (Hilda), for believing in me, and allowing me to make this transition into software development.
+
 
