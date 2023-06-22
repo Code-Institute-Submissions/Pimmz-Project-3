@@ -49,14 +49,14 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
-| x | x | repeat for any other tested sizes |
+| Iphone se | ![screenshot](documentation/iphone-se.png) | Works as expected |
+| Ipad mini | ![screenshot](documentation/ipad-mini) | Works as expected |
+| Pixel 5| ![screenshot](documentation/pixel5.png) | Works as expected |
+| S20 Ultra | ![screenshot](documentation/S20Ultra.png) | Works as expected |
+| Surface Pro | ![screenshot](documentation/surfacepro.png) | Works as expected |
+| Galaxy fold | ![screenshot](documentation/fold.png) | Works as expected |
+| Nest | ![screenshot](documentation/nest.png) | Works as expected |
+
 
 ## Lighthouse Audit
 
