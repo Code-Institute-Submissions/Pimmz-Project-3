@@ -70,6 +70,19 @@ def fight_or_scarper():
         print("Great shooting! There are no signs of life on the ship\n")
         print("Do you want to analyse what happened, as Rimmer has suggested")
         print("Or board the ship to look for anything worth swiping?\n")
+        guitar_or_not()
+
+
+def guitar_or_not():
+    reward = input("Do you want listers Guitar as a reward? (yes/no):")
+    if reward == "yes":
+        print("Adding to your backpack...\n")
+        pack_worksheet = SHEET.worksheet("pack")
+        print(data)
+        pack_worksheet.append_row(data)
+        print("Added to your backpack successfully\n")
+    else:
+        print("You have left the Guitar behind")
         analyse_or_board()
 
 
@@ -176,23 +189,3 @@ def start_game_text():
 if __name__ == "__main__":
     start_game_text()
 
-
-inventory = []
-
-
-def bridgeChoice():
-    global inventory
-    print("Would you like a curry to celebrate?")
-    reward = input(['yes', 'no'])
-    if reward == "yes":
-        addToInventory("You've picked up the Curry for later.")
-    else:
-        print("You have left the Curry behind")
-    print(inventory)
-
-
-def addToInventory(item):
-    inventory.append(item)
-
-
-bridgeChoice()
