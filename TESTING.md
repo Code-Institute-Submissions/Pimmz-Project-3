@@ -77,6 +77,7 @@ When completing the project I only came across the following the error message:
     ![screenshot](documentation/error.png)
 
     - To fix this, I reduced down the length of the line by rewording the sentence so that it was under 79 characters.
+    - I also used the print("") if the next line character(\n) was pushing the line length just over the allowed characters. 
 
 
 **Open Issues**
