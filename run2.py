@@ -10,11 +10,9 @@ SCOPE = [
 CREDS = Credentials.from_service_account_file('creds.json')
 SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
-SHEET = GSPREAD_CLIENT.open('Back_to_Red_Dwarf')
+SHEETS = GSPREAD_CLIENT.open('Back_to_Red_Dwarf')
 
-pack = SHEET.worksheet('pack')
-
-data = pack.get_all_values()
+pack = SHEETS.worksheet('pack')
 
 
 # function to get user input but only if it matches the valid option
@@ -68,21 +66,27 @@ def fight_or_scarper():
         print("You turn Starbug around and fire the guns, Direct hit to")
         print("Their engines, the simulant ship is dead in the water,")
         print("Great shooting! There are no signs of life on the ship\n")
-        print("Do you want to analyse what happened, as Rimmer has suggested")
-        print("Or board the ship to look for anything worth swiping?\n")
         guitar_or_not()
 
+
+# First reward for getting the right answer
 
 def guitar_or_not():
     reward = input("Do you want listers Guitar as a reward? (yes/no):")
     if reward == "yes":
         print("Adding to your backpack...\n")
-        pack_worksheet = SHEET.worksheet("pack")
-        print(data)
+        pack_worksheet = SHEETS.worksheet("pack")
+        data = ["Guitar"]
         pack_worksheet.append_row(data)
         print("Added to your backpack successfully\n")
-    else:
+        print("Do you want to analyse what happened, as Rimmer has suggested")
+        print("Or board the ship to look for anything worth swiping?\n")
+        analyse_or_board()
+
+    elif reward == "no":
         print("You have left the Guitar behind")
+        print("Do you want to analyse what happened, as Rimmer has suggested")
+        print("Or board the ship to look for anything worth swiping?\n")
         analyse_or_board()
 
 
@@ -101,10 +105,28 @@ def analyse_or_board():
     elif (user_input == "board"):
         print("You board the simulant ship and start looking for goods\n")
         print("The cat finds a box with rejuvenating shower written on it")
-        print("You all agree he can keep it, just to keep him quiet")
-        print("Lister says he'll build it he took a class once at art college")
-        print("")
-        print("Do you let lister build it or Kryten?\n")
+        print("You all agree he can keep it, just to keep him quiet\n")
+        hair_or_not()
+
+
+# Second reward for getting the right answer
+
+def hair_or_not():
+    reward = input("He also found a hairbrush do you pick it up? (yes/no):")
+    if reward == "yes":
+        print("Adding to your backpack...\n")
+        pack_worksheet = SHEETS.worksheet("pack")
+        data = ["Hairbrush"]
+        pack_worksheet.append_row(data)
+        print("Added to your backpack successfully\n")
+        print("Lister wants to build the shower as he took a class once at")
+        print("Art College do you let lister build it or Kryten?\n")
+        kryten_or_lister()
+
+    elif reward == "no":
+        print("You have left the hairbrush behind")
+        print("Lister wants to build the shower as he took a class once at")
+        print("Art College do you let lister build it or Kryten?\n")
         kryten_or_lister()
 
 
@@ -114,7 +136,7 @@ def kryten_or_lister():
     user_input = get_user_input(['kryten', 'lister'])
     if (user_input == "kryten"):
         print("Kryten unpacks the shower and starts building it")
-        print("After two hours he's finished and tests the device")
+        print("After two hours he's finished and tests the device\n")
         print("A huge explosion happens killing everyone on board")
         print("It seems Lister had swapped out Krytens head to spare head two")
         print("The smeeeeg heeeeead\n")
@@ -173,7 +195,25 @@ def yes_or_no():
         print("Teleported, but wait, this isn't Starbug, its Red Dwarf\n")
         print("Congratulations!\n")
         print("You've made it Back to Red Dwarf\n")
+        curry_or_not()
 
+
+# Third reward for getting the right answer
+
+def curry_or_not():
+    reward = input("Do you fancy a celebratory curry? (yes/no):")
+    if reward == "yes":
+        print("Adding to your backpack...\n")
+        pack_worksheet = SHEETS.worksheet("pack")
+        data = ["Curry"]
+        pack_worksheet.append_row(data)
+        print("Added to your backpack successfully\n")
+        print("Game Over")
+
+    elif reward == "no":
+        print("No curry for you tonight then!\n")
+        print("Game Over")
+    
 
 # Start of the game
 
@@ -188,4 +228,3 @@ def start_game_text():
 
 if __name__ == "__main__":
     start_game_text()
-
