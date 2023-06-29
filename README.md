@@ -8,13 +8,13 @@ https://ui.dev/amiresponsive?url=https://red-dwarf.herokuapp.com
 
 
 ## Design Process (UX)
-When I started the design of Back to Red Dwarf I wanted to ensure the site was Useful, Useable and Valuable so that it makes the user experience immersive and enjoyable. To do this I looked at the five key fundamentals;
+When I started the design of Back to Red Dwarf I wanted to ensure the site was Useful, Useable and Valuable so that it makes the user experience immersive and enjoyable for the user. To do this I looked at the five key fundamentals;
 
 Strategy - So the user can enjoy this simple, enjoyable, texted based game while immersing themselves in a fictional scenario.
 
-## Scope - Based on the information from the strategy, .
+Scope - Based on the information from the strategy. The features included control of their journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required, if they did put any other word in the input field it will display a invalid message. I have also placed rewards in the game so that the user can pick up items or leave them behind as rewards for getting the right choices. This has been linked to googlesheets so that the items collected can be displayed as though they have put it in their backpack.
 
-Structure - This was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. The key part being that they were in control of their journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required if they did put any other word in the input field
+Structure - This was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. The key part being that they were in control of their journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required if they did put any other word in the input field, as well as the rewards for completing sections of the game as mentioned previously.
 
 Skeleton - As before this was designed to lead the user on a journey through afew of my favorite episodes of Red Dwarf. The user has been given a number of different scenarios so they can have a fun and challenging expeerience. Due to it being a back end application it dictated that it would be one page, laid out simply. So that it can be used quickly and efficiently while delivering the most amount of fun.
 
