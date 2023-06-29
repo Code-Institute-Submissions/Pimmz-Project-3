@@ -17,10 +17,10 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 ## Browser Compatibility
 
-I have tested Famous Quote Matcher on four different browsers. The first was Chrome, the second was Firefox, the third was Brave and the fourth was Opera. I would have liked to test on Safari but unfortunately, I don’t have access to an Apple device.
+I have tested BAck to Red Dwarf on four different browsers. The first was Chrome, the second was Firefox, the third was Brave and the fourth was Opera. I would have liked to test on Safari but unfortunately, I don’t have access to an Apple device.
 
 - [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
+- [Firefox](https://www.mozilla.org/firefox/developer)
 - [Brave](https://brave.com/download)
 - [Opera](https://www.opera.com/download)
 
