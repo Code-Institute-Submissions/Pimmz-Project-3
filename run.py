@@ -14,8 +14,11 @@ SHEETS = GSPREAD_CLIENT.open('Back_to_Red_Dwarf')
 
 pack = SHEETS.worksheet('pack')
 
+"""
+function to get user input but only if it matches the valid
+option else it displays a invalid input
+"""
 
-# function to get user input but only if it matches the valid option
 
 def get_user_input(valid_options):
     input_is_valid = False
@@ -30,7 +33,7 @@ def get_user_input(valid_options):
     return user_input_lower
 
 
-# User input for the first choice
+# User input to find out what is going on
 
 def sit_back_or_bridge():
     user_input = get_user_input(['sit back', 'bridge'])
@@ -51,7 +54,11 @@ def sit_back_or_bridge():
         fight_or_scarper()
 
 
-# User input for the simulant choice
+"""
+User input for the simulant choice to decide if you want to fight
+the simulants.
+"""
+
 
 def fight_or_scarper():
     user_input = get_user_input(['fight', 'scarper'])
@@ -63,11 +70,13 @@ def fight_or_scarper():
         quit()
 
     elif (user_input == "fight"):
-        print("You turn Starbug around and fire the guns, Direct hit to")
+        print("You turn Starbug around and fire the guns. Direct hit to")
         print("Their engines, the simulant ship is dead in the water,")
         print("Great shooting! There are no signs of life on the ship\n")
         guitar_or_not()
 
+
+# Guitar reward for completing the game linked to google docs
 
 def guitar_or_not():
     reward = input("Do you want listers Guitar as a reward? (yes/no):")
@@ -88,7 +97,7 @@ def guitar_or_not():
         analyse_or_board()
 
 
-# User input for the analyse choice
+# User input for the analyse choice after the simulant fight
 
 def analyse_or_board():
     user_input = get_user_input(['analyse', 'board'])
@@ -103,9 +112,11 @@ def analyse_or_board():
     elif (user_input == "board"):
         print("You board the simulant ship and start looking for goods\n")
         print("The cat finds a box with rejuvenating shower written on it")
-        print("You all agree he can keep it, just to keep him quiet\n")
+        print("You all agree he can keep it, just to keep him quiet.\n")
         hair_or_not()
 
+
+# Hairbrush reward for completing the game linked to google docs
 
 def hair_or_not():
     reward = input("He also found a hairbrush do you pick it up? (yes/no):")
@@ -120,13 +131,13 @@ def hair_or_not():
         kryten_or_lister()
 
     elif reward == "no":
-        print("You have left the hairbrush behind")
+        print("You have left the hairbrush behind/n")
         print("Lister wants to build the shower as he took a class once at")
         print("Art College do you let lister build it or Kryten?\n")
         kryten_or_lister()
 
 
-# User input for the shower choice
+# User input for the shower choice to see who builds it
 
 def kryten_or_lister():
     user_input = get_user_input(['kryten', 'lister'])
@@ -151,7 +162,7 @@ def kryten_or_lister():
         forwards_or_backwards()
 
 
-# User input for the lemons choice
+# User input for the forwards or backwards input to decide on the gelf trade
 
 def forwards_or_backwards():
     user_input = get_user_input(['forwards', 'backwards'])
@@ -165,14 +176,14 @@ def forwards_or_backwards():
         print("You walk forwards straight to the nearest village\n")
         print("Its a Gelf village!. They unfortunately don't have a nine volt")
         print("Battery for the remote but look, they do have lemons and ")
-        print("Copper. Kryten said we could make a battery\n")
+        print("Copper. Kryten said we could make a battery.\n")
         print("The Gelfs are happy to trade, but they want Rimmer in exchange")
         print("")
         print("Do you exchange Rimmer for the lemons and copper?\n")
         yes_or_no()
 
 
-# User input for the lemons choice
+# User input for the lemons choice to decide which way to go
 
 def yes_or_no():
     user_input = get_user_input(['yes', 'no'])
@@ -186,13 +197,15 @@ def yes_or_no():
 
     elif (user_input == "no"):
         print("Excellent you've got the lemons & copper, plus")
-        print("You've got rid of Rimmer, What a great day\n")
+        print("You've got rid of Rimmer, What a great day!\n")
         print("Kryten makes the battery and hits the return key, everyone is")
         print("Teleported, but wait, this isn't Starbug, its Red Dwarf\n")
         print("Congratulations!\n")
         print("You've made it Back to Red Dwarf\n")
         curry_or_not()
 
+
+# Curry reward for completing the game linked to google docs
 
 def curry_or_not():
     reward = input("Do you fancy a celebratery curry? (yes/no):")
@@ -207,7 +220,7 @@ def curry_or_not():
     elif reward == "no":
         print("No curry for you tonight then!\n")
         print("Game Over")
-    
+
 
 # Start of the game
 
