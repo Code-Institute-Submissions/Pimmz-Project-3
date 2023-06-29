@@ -85,6 +85,7 @@ When completing the project I only came across the following the error message:
     ![screenshot](documentation/error1.png)
 
     - This was caused due to an updated worksheet in codeanywhere as I had run out of hours. The gspread module had been deleted so I had to reinstall "pip install gspread" to correct the issue.
+    - The requirements txt file had also been deleted. So to fix this I put in "pip3 freeze > requirements.txt" in the terminal and then save the changes. This then meant that it could communicate with heroku and is working perfectly.
 
 **Open Issues**
 
