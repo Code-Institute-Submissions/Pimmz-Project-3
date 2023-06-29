@@ -1,5 +1,5 @@
 # Back to Red Dwarf
-
+https://github.com/Pimmz/Project-3
 
 Welcome to Back to Red Dwarf. The texted based adventure game. I created the game because I have fond memories of playing similar games in my youth. I used to get lost in the worlds that had been created. So it was great fun to be able to make my own. I decided on Back to Red Dwarf due to being a big fan of the show. Plus I enjoy humour in my adventure games. So it seemed only fitting that I marry the Red Dwarf story to the text-based adventure game. Back to Red Dwarf has been designed so anyone can enjoy this simple but enjoyable game, so they to can enjoy moments as I did as a child.
 ![screenshot](documentation/ami.png)
@@ -64,10 +64,10 @@ Back to Red Dwarf has been designed so the user feels in control of their journe
 ![screenshot](documentation/function.png)
 
 
-- **Clear word choice #3**
+- **Clear word choice**
 
 
-- I have also added code to help show the user the correct text required if they did put any other word in the input field as could very easily happen.
+- I have also added code to help show the user the correct text required if they did put any other word in the input field as could very easily happen. 
 
 
 ![screenshot](documentation/word.png)
@@ -81,20 +81,24 @@ Back to Red Dwarf has been designed so the user feels in control of their journe
 
 ![screenshot](documentation/reward.png)
 
+
+- **Google sheet link & Screenshot**
+
+https://docs.google.com/spreadsheets/d/1y45cN-1sd26amB8Qomnm4hih6fRAvSPayOhxql4qHzc/edit?usp=sharing
+
 ![screenshot](documentation/google.png)
-
-
-
 
 
 
 ### Future Features
 
 
-- Adding four times the current amount of rooms #1
-- The game would definitely benefit from having a longer, more immersive experience. So to add four times the amount of rooms would make the game so much more challenging
-- Pictures added #2
-- I'd like to add pictures to the game. Something like your dead and a picture depicting the particular death you suffered or pictures to celebrate a decision well made or even finishing the game.
+- Adding four times the current amount of rooms
+    - The game would definitely benefit from having a longer, more immersive experience. So to add four times the amount of rooms would make the game so much more challenging
+- Pictures added
+    - I'd like to add pictures to the game. Something like your dead and a picture depicting the particular death you suffered or pictures to celebrate a decision well made or even finishing the game.
+- Retrieve inventory
+    - I would also like to be able to retrieve the current inventory, but due to time constraints it was not possible currently.
 
 
 ## Tools & Technologies Used
