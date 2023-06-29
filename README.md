@@ -26,7 +26,7 @@ Then I sat down and roughly sketched out onto paper what the journey would look 
 
 ## Features
 
-Back to Red Dwarf has been designed do the user feels in control of their journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required if they did put any other word in the input field
+Back to Red Dwarf has been designed so the user feels in control of their journey by selecting to go one way or the other. A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game. However I have also added code to help show the user the correct text required if they did put any other word in the input field, plus it will display an invalid message. I have also added a reward for completing sections of the game which is connected to googlesheets.
 
 
 ### Existing Features
@@ -37,9 +37,9 @@ Back to Red Dwarf has been designed do the user feels in control of their journe
 
 ![screenshot](documentation/direction.png)
 
-- **One loop for all input to check for vaildity & Lowercase converter** 
+- **One loop for all inputs to check for vaildity & Lowercase converter** 
 
-    - A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game play and ruin the usr experience
+    - A lowercase converter was added to ensure that if the user did put upppercase in the input field it would not effect the game play and ruin the user experience. Plus a invalid message was also attached should they enter a wrong word.
 
 ![screenshot](documentation/function.png)
 
@@ -51,9 +51,10 @@ Back to Red Dwarf has been designed do the user feels in control of their journe
 
 - **Reward logged into inventory** 
 
-    - I have included a reward of listers guitar. so the user has the satifaction of getting something after completing the game.
+    - I have included a number of rewards so the user has the satifaction of getting something while completing the game, I have linked them to googlesheets so the items that they choose to pick up are stored so that they can check to see what they have.
 
 ![screenshot](documentation/reward.png)
+![screenshot](documentation/google.png)
 
 
 
@@ -73,7 +74,7 @@ Back to Red Dwarf has been designed do the user feels in control of their journe
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [codeanywhere](https://app.codeanywhere.com/) used as a cloud-based IDE for development.
 - [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Lucidchart](https://www.lucidchart.com/ used for the flowchart)
+- [Lucidchart](https://www.lucidchart.com) used for the flowchart.
 
 
 ## Data Model
@@ -109,6 +110,15 @@ def sit_back_or_bridge():
     user_input = get_user_input(['sit back', 'bridge'])
     if (user_input == "sit back"):
         print("")
+
+def guitar_or_not():
+    reward = input("Do you want listers Guitar as a reward? (yes/no):")
+    if reward == "yes":
+        print("Adding to your backpack...\n")
+        pack_worksheet = SHEETS.worksheet("pack")
+        data = ["Guitar"]
+        pack_worksheet.append_row(data)
+        print("Added to your backpack successfully\n")
 ```
 
 The primary functions used on this application are:
@@ -131,6 +141,14 @@ The primary functions used on this application are:
     - Also used with if and elif when their condition are not met
 - `print`
     -  To display text in the console
+- `def`
+    -  Key word to define a function
+- `pack_worksheet = SHEETS.worksheet("pack")`
+    -  enables the variable to be connected to a specific worksheet
+- `data = ["Guitar"]`
+    - To display the string "guitar" to the variable data
+- `pack_worksheet.append_row(data)`
+    -  To add a new row of data to a specific worksheet
 
 
 ## Testing
