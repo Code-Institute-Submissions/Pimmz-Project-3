@@ -79,6 +79,12 @@ When completing the project I only came across the following the error message:
     - To fix this, I reduced down the length of the line by rewording the sentence so that it was under 79 characters.
     - I also used the print("") if the next line character(\n) was pushing the line length just over the allowed characters. 
 
+- Traceback (most recent call last): File "/app/run.py", line 1, in <module>
+  import gspread ModuleNotFoundError: No module named 'gspread'
+
+    ![screenshot](documentation/error1.png)
+
+    - This was caused due to an updated worksheet in codeanywhere as I had run out of hours. The gspread module had been deleted so I had to reinstall "pip install gspread" to correct the issue.
 
 **Open Issues**
 
