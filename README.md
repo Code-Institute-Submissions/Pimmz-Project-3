@@ -248,6 +248,7 @@ There are no differences between the local version Ive developed, and the live d
 
 - [python](https://www.w3schools.com/python/default.asp) used to assist with python throughout the site.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [heroku](https://devcenter.heroku.com/start) used to assist with  heroku.
 - Tutor support at code institute
 - Antonio Rodriguez Mentor at code institute
 - Love Sandwiches project at code institute
@@ -261,12 +262,11 @@ There are no differences between the local version Ive developed, and the live d
 | [W3Schools](https://www.w3schools.com/python/default.asp) | entire site | functions |
 | [W3Schools](https://www.w3schools.com/python/python_conditions.asp) | entire site | if, elif and else  |
 | [W3Schools](https://www.w3schools.com/python/python_while_loops.asp) | intial function | while loop |
+| [W3Schools](https://www.w3schools.com/python/python_user_input.asp) | entire site | Python user input |
+| [W3Schools](https://www.w3schools.com/python/ref_list_append.asp) | entire site | Python list append method |
+| [YouTube](https://youtu.be/ORsJn-71__0) | Basic structure | How to code a basic adventure game |
 
 
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
 ### Acknowledgements
 
