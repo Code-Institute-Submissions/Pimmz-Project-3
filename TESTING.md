@@ -88,7 +88,7 @@ I did complete a lighthouse test. However, my mentor advised me to take it out o
 ## Bugs
 
 
-When completing the project I only came across the following error message:
+When completing the project I came across the following errors:
 
 
 - **Python `E501 line too long (98 > 79 characters)**
@@ -97,8 +97,8 @@ When completing the project I only came across the following error message:
 ![screenshot](documentation/error.png)
 
 
-    - To fix this, I reduced the length of the line by rewording the sentence so that it was under 79 characters.
-    - I also used the print("") if the next line character(\n) was pushing the line length just over the allowed characters.
+- To fix this, I reduced the length of the line by rewording the sentence so that it was under 79 characters.
+- I also used the print("") if the next line character(\n) was pushing the line length just over the allowed characters.
 
 
 - **Traceback (most recent call last): File "/app/run.py", line 1, in <module> import gspread ModuleNotFoundError: No module named 'gspread'**
