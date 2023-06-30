@@ -333,9 +333,9 @@ There are no differences between the local version Ive developed, and the live d
 ## Credits
 
 
-- [python](https://www.w3schools.com/python/default.asp) used to assist with python throughout the site.
+- [Python](https://www.w3schools.com/python/default.asp) used to assist with python throughout the site.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
-- [heroku](https://devcenter.heroku.com/start) used to assist with heroku.
+- [Heroku](https://devcenter.heroku.com/start) used to assist with heroku.
 - Tutor support at code institute
 - Antonio Rodriguez Mentor at code institute
 - Love Sandwiches project at code institute
@@ -366,7 +366,7 @@ There are no differences between the local version Ive developed, and the live d
 - I would like to thank my Code Institute mentor, [Antonio Rodriguez] for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self-doubt and imposter syndrome.
-- I would like to thank my partner (Hilda), for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my partner Hilda, for believing in me, and allowing me to make this transition into software development.
 
 
 
