@@ -60,12 +60,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 ## Lighthouse Audit
 
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
-
-| Page | Size | Screenshot | Notes |
-| --- | --- | --- | --- |
-| Home | Mobile | ![screenshot](documentation/lh-mobile.png) | Some performance warnings |
-| Home | Desktop | ![screenshot](documentation/lh-desktop.png) | Low SEO due to meta description|
+I did complete a lighthouse test. However my mentor advised me to take it out of my testing file due to python being a backend program.
 
 
 ## Bugs
@@ -85,7 +80,7 @@ When completing the project I only came across the following the error message:
     ![screenshot](documentation/error1.png)
 
     - This was caused due to an updated worksheet in codeanywhere as I had run out of hours. The gspread module had been deleted so I had to reinstall "pip install gspread" to correct the issue.
-    - The requirements txt file had also been deleted. So to fix this I put in "pip3 freeze > requirements.txt" in the terminal and then save the changes. This then meant that it could communicate with heroku and is working perfectly.
+    - The requirements txt file had also been deleted. So to fix this I put in "pip3 freeze > requirements.txt" in the terminal and then saved the changes. This then meant that it could communicate with heroku and is working perfectly as far as I am aware of.
 
 **Open Issues**
 
