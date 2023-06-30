@@ -67,7 +67,7 @@ def fight_or_scarper():
     user_input = get_user_input(['fight', 'scarper'])
     if (user_input == "scarper"):
         print("")
-        print("You fire up the boosters and leg it/n")
+        print("You fire up the boosters and leg it\n")
         print("Unfortunately Starbug is slower than an arthritic hamster")
         print("The simulants laugh and blast you to pieces\n")
         print("Youre Dead!")
@@ -76,7 +76,7 @@ def fight_or_scarper():
     elif (user_input == "fight"):
         print("")
         print("You turn Starbug around and fire the guns. Direct hit to")
-        print("Their engines, the simulant ship is dead in the water,")
+        print("Their engines. The simulant ship is dead in the water.")
         print("Great shooting! There are no signs of life on the ship\n")
         guitar_or_not()
 
@@ -97,7 +97,7 @@ def guitar_or_not():
 
     elif reward == "no":
         print("")
-        print("You have left the Guitar behind")
+        print("You have left the Guitar behind\n")
         print("Do you want to analyse what happened, as Rimmer has suggested")
         print("Or board the ship to look for anything worth swiping?\n")
         analyse_or_board()
@@ -140,9 +140,9 @@ def hair_or_not():
 
     elif reward == "no":
         print("")
-        print("You have left the hairbrush behind/n")
+        print("You have left the hairbrush behind\n")
         print("Lister wants to build the shower as he took a class once at")
-        print("Art College do you let lister build it or Kryten?\n")
+        print("Art College, do you let lister build it or Kryten?\n")
         kryten_or_lister()
 
 
@@ -179,7 +179,7 @@ def forwards_or_backwards():
     user_input = get_user_input(['forwards', 'backwards'])
     if (user_input == "forwards"):
         print("")
-        print("Oh smeg, it's a backwards planet.")
+        print("Oh smeg, it's a backwards planet.\n")
         print("You walk backwards straight off a cliff\n")
         print("You're Dead!")
         quit()
@@ -203,7 +203,7 @@ def yes_or_no():
 
     if (user_input == "yes"):
         print("")
-        print("Double smeg, it's a backwards planet.")
+        print("Double smeg, it's a backwards planet.\n")
         print("The Gelfs take offence because you won't trade")
         print("Plus Lister said they looked like his gran\n")
         print("So they shoot you all, You're Dead!")
