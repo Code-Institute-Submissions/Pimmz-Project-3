@@ -67,7 +67,7 @@ def fight_or_scarper():
     user_input = get_user_input(['fight', 'scarper'])
     if (user_input == "scarper"):
         print("")
-        print("You fire up the boosters and leg it/n ")
+        print("You fire up the boosters and leg it/n")
         print("Unfortunately Starbug is slower than an arthritic hamster")
         print("The simulants laugh and blast you to pieces\n")
         print("Youre Dead!")
