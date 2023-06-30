@@ -348,7 +348,7 @@ There are no differences between the local version Ive developed, and the live d
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/python/default.asp) | entire site | functions |
+| [W3Schools](https://www.w3schools.com/python/python_functions.asp) | entire site | functions |
 | [W3Schools](https://www.w3schools.com/python/python_conditions.asp) | entire site | if, elif and else |
 | [W3Schools](https://www.w3schools.com/python/python_while_loops.asp) | intial function | while loop |
 | [W3Schools](https://www.w3schools.com/python/python_user_input.asp) | entire site | Python user input |
