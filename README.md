@@ -1,5 +1,5 @@
 # Back to Red Dwarf
-https://github.com/Pimmz/Project-3
+https://red-dwarf.herokuapp.com/
 
 Welcome to Back to Red Dwarf. The texted based adventure game. I created the game because I have fond memories of playing similar games in my youth. I used to get lost in the worlds that had been created. So it was great fun to be able to make my own. I decided on Back to Red Dwarf due to being a big fan of the show. Plus I enjoy humour in my adventure games. So it seemed only fitting that I marry the Red Dwarf story to the text-based adventure game. Back to Red Dwarf has been designed so anyone can enjoy this simple but enjoyable game, so they to can enjoy moments as I did as a child.
 ![screenshot](documentation/ami.png)

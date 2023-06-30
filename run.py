@@ -39,6 +39,7 @@ def get_user_input(valid_options):
 def sit_back_or_bridge():
     user_input = get_user_input(['sit back', 'bridge'])
     if (user_input == "sit back"):
+        print("")
         print("You sit back put your feet up and turn the game on\n")
         print("You grab the beer and just as you're about to open it,")
         print("It turns into a Polymorph and sucks all your emotion out")
@@ -49,6 +50,7 @@ def sit_back_or_bridge():
         quit()
 
     elif (user_input == "bridge"):
+        print("")
         print("You run to the bridge and ask what the smeg is going on?")
         print("Kryten replies, were being attacked by rouge simulants\n")
         print("Would you like to fight or scarper\n")
@@ -64,13 +66,15 @@ the simulants.
 def fight_or_scarper():
     user_input = get_user_input(['fight', 'scarper'])
     if (user_input == "scarper"):
-        print("You fire up the boosters and leg it ")
+        print("")
+        print("You fire up the boosters and leg it/n ")
         print("Unfortunately Starbug is slower than an arthritic hamster")
         print("The simulants laugh and blast you to pieces\n")
         print("Youre Dead!")
         quit()
 
     elif (user_input == "fight"):
+        print("")
         print("You turn Starbug around and fire the guns. Direct hit to")
         print("Their engines, the simulant ship is dead in the water,")
         print("Great shooting! There are no signs of life on the ship\n")
@@ -92,6 +96,7 @@ def guitar_or_not():
         analyse_or_board()
 
     elif reward == "no":
+        print("")
         print("You have left the Guitar behind")
         print("Do you want to analyse what happened, as Rimmer has suggested")
         print("Or board the ship to look for anything worth swiping?\n")
@@ -103,6 +108,7 @@ def guitar_or_not():
 def analyse_or_board():
     user_input = get_user_input(['analyse', 'board'])
     if (user_input == "analyse"):
+        print("")
         print("You sit down with Rimmer and analyse the situation, after")
         print("Days of analysing and organ music playing in the background")
         print("You decide you can't take it any more and throw yourself")
@@ -111,6 +117,7 @@ def analyse_or_board():
         quit()
 
     elif (user_input == "board"):
+        print("")
         print("You board the simulant ship and start looking for goods\n")
         print("The cat finds a box with rejuvenating shower written on it")
         print("You all agree he can keep it, just to keep him quiet.\n")
@@ -132,6 +139,7 @@ def hair_or_not():
         kryten_or_lister()
 
     elif reward == "no":
+        print("")
         print("You have left the hairbrush behind/n")
         print("Lister wants to build the shower as he took a class once at")
         print("Art College do you let lister build it or Kryten?\n")
@@ -143,6 +151,7 @@ def hair_or_not():
 def kryten_or_lister():
     user_input = get_user_input(['kryten', 'lister'])
     if (user_input == "kryten"):
+        print("")
         print("Kryten unpacks the shower and starts building it")
         print("After two hours he's finished and tests the device\n")
         print("A huge explosion happens killing everyone on board")
@@ -152,6 +161,7 @@ def kryten_or_lister():
         quit()
 
     elif (user_input == "lister"):
+        print("")
         print("Lister starts building the shower, he builds it in an hour")
         print("Which is very strange,It seems he used a bit of the luck virus")
         print("")
@@ -168,12 +178,14 @@ def kryten_or_lister():
 def forwards_or_backwards():
     user_input = get_user_input(['forwards', 'backwards'])
     if (user_input == "forwards"):
+        print("")
         print("Oh smeg, it's a backwards planet.")
         print("You walk backwards straight off a cliff\n")
         print("You're Dead!")
         quit()
 
     elif (user_input == "backwards"):
+        print("")
         print("You walk forwards straight to the nearest village\n")
         print("Its a Gelf village!. They unfortunately don't have a nine volt")
         print("Battery for the remote but look, they do have lemons and ")
@@ -190,6 +202,7 @@ def yes_or_no():
     user_input = get_user_input(['yes', 'no'])
 
     if (user_input == "yes"):
+        print("")
         print("Double smeg, it's a backwards planet.")
         print("The Gelfs take offence because you won't trade")
         print("Plus Lister said they looked like his gran\n")
@@ -197,6 +210,7 @@ def yes_or_no():
         quit()
 
     elif (user_input == "no"):
+        print("")
         print("Excellent you've got the lemons & copper, plus")
         print("You've got rid of Rimmer, What a great day!\n")
         print("Kryten makes the battery and hits the return key, everyone is")
