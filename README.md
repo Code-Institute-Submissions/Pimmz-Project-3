@@ -34,6 +34,28 @@ Then I sat down and roughly sketched out onto paper what the journey would look 
 
 ![screenshot](documentation/p3-sketch.jpg)
 
+## User Stories
+
+### New Site Users
+
+- As a new site user, I would like to be able to understand how to play the game.
+- As a new site user, I would like to be challenged, so that I can have an input on my decisions in the game.
+- As a new site user, I would like an interesting story, to keep me engaged.
+- As a new site user, I would like to have fun, so that I can enjoy myself and unwind from a busy day.
+- As a new site user, I would like to get something for completing a task
+
+### Returning Site Users
+- As a returning site user, I would like the controls to be same and not have changed.
+- As a returning site user, I would like to be challenged, so that I can have an input on my decisions in the game, so it dosent become boring.
+- As a returning site user, I would like an interesting story, to keep me engaged.
+- As a returning site user, I would like to have fun, so that I can enjoy myself and unwind from a busy day.
+- As a returning site user, I would like to get something for completing a task and being to see what I had collected.
+
+
+### Site Admin
+
+- As a site administrator, I should be able to understand why something has been written, so that I can navigate the code easily.
+
 
 ## Features
 
